@@ -1,10 +1,10 @@
-# TooLongUtility
+# [Windows][Solved] : "the file name is too long!"
 A python based utility for windows to address/solve the error : "the file name is too long".
 
 The utility provides the following operations for the folders which have this error
-- Copy
-- Remove
-- Create (Just to check whether this works or not! )
+- **Copy**
+- **Remove**
+- **Create** (Just to mess up with your friends/colleagues using Windows :P)
 
 ## Requirements
 - python 3+
