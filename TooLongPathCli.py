@@ -76,4 +76,4 @@ if args.create and args.destination:
         dir_name = "Delete me if you can"
     else:
         dir_name = str(args.folder_name)
-    makedirs(dst_path, dir_name, 100)
+    makedirs(dst_path, dir_name, 500)
