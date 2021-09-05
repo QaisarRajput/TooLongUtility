@@ -16,6 +16,7 @@ parser.add_argument("-cp", "--copy", help="Copies too long source folder items t
 parser.add_argument("-cr", "--create", help="Makes recusive folders inside a folder", action="store_true")
 parser.add_argument("-src", "--source", help="Source path of the folder")
 parser.add_argument("-dst", "--destination", help="Destination path of the folder")
+parser.add_argument("-f_name", "--folder_name", help="Folder Name, Dont use special characters")
 # read arguments from the command line
 args = parser.parse_args()
 
@@ -71,5 +72,8 @@ if args.copy and args.source and args.destination:
 if args.create and args.destination: 
     print("Create scripts started")
     dst_path = str(args.destination)
-    dir_name = "Delete me if you can"
+    if args.folder_name is NULL:
+        dir_name = "Delete me if you can"
+    else:
+        dir_name = str(args.folder_name)
     makedirs(dst_path, dir_name, 100)
