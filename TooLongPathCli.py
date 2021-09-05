@@ -3,6 +3,12 @@
 Created on Thu Jan 11 17:56:30 2018
 
 @author: Qaisar.Tanvir
+
+NOTE: 
+Intent of this code script is just solve a windows error and correct it. Any users who use it are soley responsible for any potential harm caused to any person machine or object.
+Additionally, this code comes under No Harm License, For further details read the license file in the repo.
+Any malicious use of this code by any user/person is not the authors responsibility in any capacity. Those malicious users/people will be soley responsible in any court of law
+PLEASE BEAWARE OF ANY MISUSE 
 """
 import os
 import shutil
